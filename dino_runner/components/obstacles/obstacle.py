@@ -1,7 +1,6 @@
 from dino_runner.utils.constants import SCREEN_WIDTH
 class Obstacle:
-    def __init__(self, images, type): #a Class cactus traz para seu "pai" as imagens/ num aleatorio/ POS_Y
-        #Os parametros images e type foram separados para adequar o Bird.
+    def __init__(self, images, type):
         self.images = images
         self.type = type
         self.image = self.images[self.type]
