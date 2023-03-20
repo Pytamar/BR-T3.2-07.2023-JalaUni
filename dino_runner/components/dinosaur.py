@@ -6,7 +6,7 @@ from dino_runner.utils.constants import RUNNING, JUMPING, DUCKING
 X_POS = 80
 Y_POS = 310
 Y_POSITION_DUCK = 340
-VEL_JUMP = 8.5
+VEL_JUMP = 9.5
 
 class Dinosaur:
     def __init__(self) -> None:
